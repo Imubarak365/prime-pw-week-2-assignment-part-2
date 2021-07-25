@@ -24,9 +24,9 @@ if (number >= 2) {
 */
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We make a variable with the value ' Dane'
+// We make a variable  called name with the value ' Dane'
 // we check if name is the exact match as 'Mary'. if it is we will console.log ' Hi Mary!'. otherwise we will console.log 'How do you do?'.
-//
+// We  will console.log 'how do you do' because name is 'dane' and not 'mary'
 //
 
 //CODE
@@ -43,9 +43,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-//  We will create the variable sectret. We will then create another variable and name it code, we will give it the value of 123. if code is the same as 123 then we will set the variable secret to 'super
-// and the variable code to code and multipoly it by 2. and if the variable code is greater than 250, we will set the variable secret to 'duper. we console.log (secret)
-//
+//  We will create the variable secret. We will then create another variable and name it code, we will asign it the value of 123.
+//if code equals to  123 then we will set the variable secret to 'super
+// and we will multiply the variable code by 2 and the new value of code will be 246. and the value of secret is 'super'.
+// if the variable code is greater than 250  we will set the variable secret to 'duper.
+// because it is not greater than 250 , we console.log (secret)
+// the value of secret is 'super'.
 //
 
 //CODE
@@ -68,11 +71,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// we create a variable called isStudent and set it to true as a bolean. we then create another variable name it age and set it to 34 as a number. We will also create a third variable called zip and give it the value of 55407
-// if isStudent is true and it is an exact match with zip and is greater than 80000 we will console.log 'You're a student on the west coast!'.
-// otherwise, if isStudnet is false or age is less than 30, we will console.log 'what are your hobbies'.
+// we create a variable called isStudent and set it to true as a boolean.
+//we then create another variable name it age and set it to 34 as a number.
+// We will also create a third variable called zip and give it the value of 55407
+// if isStudent is true and zip is greater than 80000 we will console.log 'You're a student on the west coast!'.
+// otherwise, if isStudent is false or age is less than 30, we will console.log 'what are your hobbies'.
 // otherwise, if isStudent is true we will console.log 'welcome to prime'.
 // otherwise we will just console.log 'how about the weather?'
+// because isStudent is true we console.log 'welcome to prime'
 
 //CODE
 /*
@@ -123,7 +129,7 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
-/*// FIX - colorOne should be set to 'blue and coloTwo should be red. 
+/*// FIX - colorOne should be set to 'blue and coloTwo should be set to red. 
 
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -156,7 +162,7 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-// FIX we use age>=minAge instead of minAge<=age
+// FIX because minAge equal to age we console.log 'no entry'
 
 if(minAge <= age) {
   console.log('no entry');
